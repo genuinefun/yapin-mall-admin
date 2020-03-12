@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.lf.yapin</groupId>
+    <artifactId>yapin-mall</artifactId>
+    <version>${project.version}</version>
+    <modules>
+        <module>yapin-common</module>
+        <module>yapin-api</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.version>1.0-SNAPSHOT</project.version>
+        <dubbo.version>0.2.0</dubbo.version>
+        <lombok.version>1.18.2</lombok.version>
+        <swagger2.version>2.8.0</swagger2.version>
+        <fastjson.version>1.2.56</fastjson.version>
+        <logstash-logback-encoder.version>5.3</logstash-logback-encoder.version>
+        <hibernate-validator.version>5.4.0.Final</hibernate-validator.version>
+        <mybatis-plus.version>3.1.0</mybatis-plus.version>
+        <mysql-connector.version>5.1.47</mysql-connector.version>
+        <sharding-jdbc.version>2.0.3</sharding-jdbc.version>
+    </properties>
+
+
+</project>
