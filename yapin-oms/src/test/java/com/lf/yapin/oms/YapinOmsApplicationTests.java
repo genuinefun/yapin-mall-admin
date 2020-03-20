@@ -3,11 +3,15 @@ package com.lf.yapin.oms;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class YapinOmsApplicationTests {
 
-    @Test
+//    @Test
     void contextLoads() {
+    }
+
+    public static void main(String[] args) {
+        System.out.println(null !=Boolean.TRUE);
     }
 
 }

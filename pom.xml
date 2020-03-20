@@ -10,6 +10,7 @@
     <modules>
         <module>yapin-common</module>
         <module>yapin-api</module>
+        <module>yapin-generator</module>
     </modules>
     <packaging>pom</packaging>
 
